@@ -1,0 +1,84 @@
+body{
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Century Gothic';
+    font-size: 1.5em;
+
+}
+
+.pokemon{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.poke1, .card{
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px ;
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.753);
+    transition: background-color .5s;
+    margin: 25px;
+}
+
+.poke1:hover, .card:hover{
+    transition: background-color .5s;
+
+    img, .nomepokemon, h2{
+        
+    transform: scale(1.05);
+    transition: transform 0.5s;
+
+    }
+
+    .tipagempokemon{
+        background-color: rgb(255, 255, 255);
+        opacity: 50%;
+        color: rgb(0, 0, 0);
+        border-radius: 5px;
+        transition: .5s;
+    }
+}
+
+
+h3, h5{
+    text-align: right;
+    margin: 10px;
+    
+}
+
+.numpokemon, h3{
+    color: rgb(0, 0, 0);
+    
+}
+.nomepokemon, h2{
+    text-align: center;
+    transition: transform .5s;
+    text-transform: capitalize;
+}
+
+.tipagempokemon {
+    text-align: center;
+    color: rgb(6, 6, 56);
+    padding-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    opacity: 20%;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+
+img{
+    display: block;
+    margin: auto;
+    transition: transform .5s;
+    height: 192px;
+    width: 192px;
+
+}
+
+
+

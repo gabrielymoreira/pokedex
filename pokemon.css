@@ -1,0 +1,70 @@
+body {
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Century Gothic';
+    font-size: 1.5em;
+    background-color: #0000000e;
+    background: url(background100.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+  
+  }
+  .pokemon {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .poke1, .card {
+    width: 250px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.753);
+    transition: background-color 0.5s;
+    margin: 25px;
+  }
+  .poke1:hover, .card:hover {
+    transition: background-color 0.5s;
+  }
+  .poke1:hover img, .card:hover img, .poke1:hover .nomepokemon, .card:hover .nomepokemon, .poke1:hover h2, .card:hover h2 {
+    transform: scale(1.05);
+    transition: transform 0.5s;
+  }
+  .poke1:hover .tipagempokemon, .card:hover .tipagempokemon {
+    background-color: white;
+    opacity: 50%;
+    color: black;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  h3, h5 {
+    text-align: right;
+    margin: 10px;
+  }
+  .numpokemon, h3 {
+    color: black;
+  }
+  .nomepokemon, h2 {
+    text-align: center;
+    transition: transform 0.5s;
+    text-transform: capitalize;
+  }
+  .tipagempokemon {
+    text-align: center;
+    color: #060638;
+    padding-bottom: 5px;
+    background-color: white;
+    opacity: 20%;
+    border-radius: 5px;
+    transition: 0.5s;
+  }
+  img {
+    display: block;
+    margin: auto;
+    transition: transform 0.5s;
+    height: 192px;
+    width: 192px;
+  }
+  
